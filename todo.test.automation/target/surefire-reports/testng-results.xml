@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-15T18:08:08Z" name="Surefire suite" finished-at="2021-04-15T18:08:33Z" duration-ms="24333">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.test.automation.Runner.RunTest@32a068d1]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-04-15T18:08:08Z" name="Surefire test" finished-at="2021-04-15T18:08:33Z" duration-ms="24333">
+      <class name="com.test.automation.Runner.RunTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.test.automation.Runner.RunTest@32a068d1]" started-at="2021-04-15T18:08:08Z" name="setUpClass" finished-at="2021-04-15T18:08:09Z" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.test.automation.Runner.RunTest@32a068d1]" started-at="2021-04-15T18:08:09Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-15T18:08:33Z" duration-ms="23871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the date field with multiple date formats and values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a todoMVC user, I want to manage my todo list"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.test.automation.Runner.RunTest@32a068d1]" started-at="2021-04-15T18:08:33Z" name="tearDownClass" finished-at="2021-04-15T18:08:33Z" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.test.automation.Runner.RunTest -->
+      <class name="com.test.automation.step_definitions.TestHooks">
+        <test-method is-config="true" signature="startup()[pri:0, instance:com.test.automation.step_definitions.TestHooks@4e41089d]" started-at="2021-04-15T18:08:08Z" name="startup" finished-at="2021-04-15T18:08:08Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.test.automation.step_definitions.TestHooks@4e41089d]" started-at="2021-04-15T18:08:33Z" name="teardown" finished-at="2021-04-15T18:08:33Z" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.test.automation.step_definitions.TestHooks -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

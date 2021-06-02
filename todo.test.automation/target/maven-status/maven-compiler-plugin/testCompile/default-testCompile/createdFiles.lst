@@ -1,0 +1,13 @@
+com\test\automation\step_definitions\TodoTest.class
+com\test\enums\IdType.class
+com\test\utilities\ScreenshotHelper.class
+com\test\utilities\WebActions.class
+com\test\utilities\ReadfieldsRef.class
+com\test\utilities\ReadProperties.class
+com\test\utilities\ScreenshotHelper$1.class
+com\test\automation\step_definitions\TestHooks.class
+com\test\automation\Runner\RunTest.class
+com\test\utilities\FinalProperties.class
+com\test\utilities\WebActions$1.class
+com\test\automation\drivers\WebDriverHelper.class
+com\test\utilities\WebActions$2.class

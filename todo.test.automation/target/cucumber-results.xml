@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="25.211347">
+    <testcase classname="As a todoMVC user, I want to manage my todo list" name="Validate the date field with multiple date formats and values" time="25.211347">
+        <system-out>
+            <![CDATA[Given I launch MVC todo application url and verify the UI...................passed
+When I enter the task description in text field and save multiple tasks.....passed
+Then I verify the footer display............................................passed
+And I remove tasks from the UI..............................................passed
+Then I verify the tasks in the UI...........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

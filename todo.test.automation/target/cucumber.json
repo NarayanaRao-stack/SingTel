@@ -1,0 +1,143 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2870866800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestHooks.before_everyScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate the date field with multiple date formats and values",
+        "description": "",
+        "id": "as-a-todomvc-user--i-want-to-manage-my-todo-list;validate-the-date-field-with-multiple-date-formats-and-values",
+        "after": [
+          {
+            "result": {
+              "duration": 2145801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestHooks.after_everyScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5481216900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I launch MVC todo application url and verify the UI",
+            "match": {
+              "location": "TodoTest.i_launch_mvc_todo_application_url_and_verify_the_ui()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8732727100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the task description in text field and save multiple tasks",
+            "match": {
+              "location": "TodoTest.i_enter_the_task_description_in_text_field_and_save_multiple_tasks(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Welcome to SingTel world"
+                ]
+              },
+              {
+                "cells": [
+                  "Buy SingTel SIM only"
+                ]
+              },
+              {
+                "cells": [
+                  "Buy SingTel SIM with Phone"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3242246001,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify the footer display",
+            "match": {
+              "location": "TodoTest.i_verify_the_footer_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4239519300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I remove tasks from the UI",
+            "match": {
+              "location": "TodoTest.i_remove_tasks_from_the_ui(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "2"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 640242300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify the tasks in the UI",
+            "match": {
+              "location": "TodoTest.i_verify_the_tasks_in_the_ui()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TodoSanityTest"
+          }
+        ]
+      }
+    ],
+    "name": "As a todoMVC user, I want to manage my todo list",
+    "description": "",
+    "id": "as-a-todomvc-user--i-want-to-manage-my-todo-list",
+    "keyword": "Feature",
+    "uri": "src/test/resources/featurefiles/Add-mvc-todo.feature",
+    "tags": [
+      {
+        "name": "@TodoSanityTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
